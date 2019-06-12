@@ -39,7 +39,7 @@ public class MainMenu extends JFrame implements ActionListener{
 		// TODO Auto-generated method stub
 		text = new JTextArea();
 		text.setEditable(true);
-		mainmenu = new JFrame("欢迎使用WTU学生信息管理系统 - 欢迎" + "用户" );
+		mainmenu = new JFrame("欢迎使用生信息管理系统 - 欢迎" + "用户" );
 		mainmenu.setSize(1265, 856);
 
 		mainmenu.getContentPane().add(new JScrollPane(text));

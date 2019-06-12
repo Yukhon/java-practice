@@ -435,7 +435,7 @@ public class EditStudentInfo  extends JFrame implements ActionListener,ItemListe
 					hobby.append(hobby12.getText());
 				}
 
-				if(hobby.charAt(hobby.length()-1)=='，') {//判断复选框最后一个选择了什么，然后去掉“，”
+				if(hobby.charAt(hobby.length()-1)==',') {//判断复选框最后一个选择了什么，然后去掉“，”
 					hobby.deleteCharAt(hobby.length()-1);
 				}
 				student.setsHobby(hobby.toString());

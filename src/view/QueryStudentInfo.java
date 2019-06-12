@@ -525,6 +525,7 @@ public class QueryStudentInfo extends JFrame implements ActionListener {
 	 * @return
 	 */
 	public Object[][] getPageData(){
+
 		Object[][] currentPageData=new Object[pageCount][column];//构造每页数据集
 		if(this.getCurrentPage()<this.totalPage){//如果当前页数小于总页数，那么每页数目应该是规定的数pageCount
 			for(int i=pageCount*(this.getCurrentPage()-1);i<pageCount*(this.getCurrentPage()-1)+pageCount;i++){

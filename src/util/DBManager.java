@@ -39,7 +39,7 @@ public class DBManager {
 	public DBManager(){
 		Properties pro = new Properties();
 		try {
-			FileInputStream in = new FileInputStream("G:\\eclipse1Workplace\\Practice\\src\\resources\\config.properties");
+			FileInputStream in = new FileInputStream("C:\\Users\\Dell\\Practice\\src\\resources\\config.properties");
 			pro.load(in);
 			dirverName = pro.getProperty("driverName");
 			url = pro.getProperty("url");

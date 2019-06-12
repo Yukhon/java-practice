@@ -23,7 +23,7 @@ public class Help extends JFrame{
 	private void Help(){
 		// TODO Auto-generated method stub
 		area = new JTextArea();
-		File file = new File("G:\\eclipse1Workplace\\Practice\\src\\docs\\学生管理系统.txt");
+		File file = new File("C:\\Users\\Dell\\Practice\\src\\docs\\学生管理系统.txt");
 		Long filelength = file.length();
 		byte[] filecontent = new byte[filelength.intValue()];
 
